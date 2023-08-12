@@ -1,0 +1,22 @@
+
+Orden de Maquetación:
+
+
+--- LANDING PAGE ---
+
+Navbar (Cada seccion debe llevarme a su contenedor) ✔
+[SECCION] Hero Section ✔
+[SECCION] About Us Section ✔
+[SECCION] Cards Section (Sucursales)
+[SECCION] Contacto (form de contacto con info, localización de la pagina, y un iframe de google)
+Footer
+
+
+- PAGINAS -
+
+*LOGIN
+*REGISTER
+
+-- CONDICIONALES --
+
+Debe ser Responsive y tener menu hamburguesa funcional (para tablet y movil)

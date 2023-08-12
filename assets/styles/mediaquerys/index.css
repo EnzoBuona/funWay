@@ -1,0 +1,197 @@
+@media screen and (max-width:1200px) {
+    .card-form{
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+    .container-values-aboutUs{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contenedor-columnas-aboutUs{
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+    .column-aboutUs{
+        flex-wrap: wrap;
+    }
+    .footer-p-credits{
+        width: 70%;
+    }
+    .form-items-columm{
+        padding-left: 2.5rem;
+    }
+}
+
+/* EXCLUSIVOS PARA ABOUT US - CIRCLES SECTION */
+@media screen and (max-width:1065px) {
+    .clients-archievements{
+        justify-content: start;
+    }
+}
+@media screen and (max-width:915px) {
+  
+    .clients-archievements{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .clients-hr{
+        height: 0px;
+        width: 100%;
+    }
+    .container-clients-aboutUs{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.8rem;
+        padding: 1.8rem;
+    }
+    .clients-text{
+        width: auto;
+    }
+}
+
+/* Media Exclusiva para Tablet y Mobile (ya que desaparece el 'Hover' al no haber mouse. */
+/* Aquí se incluyen las medidas de la barra de navegación */
+
+@media screen and (max-width:768px) {
+    .img-redes-footer{
+        height: 25px;
+        width: 25px;
+        filter: grayscale(0);
+    }
+
+}
+
+/* Navbar Querys */
+
+
+
+
+/* Fin de Media Exclusiva para T&M */
+@media screen and (max-width:495px) {
+    .clients-text{
+        width: 75%;
+        padding: 0;
+    }
+    .circle-green > h2, .circle-green > h3{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .circle-pink > h2, .circle-pink > h3{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .circle-green{
+        background-color:rgb(29, 29, 29);
+        height: auto;
+        width: auto;
+        border-radius: 0;
+        cursor: auto;
+    }
+    .circle-pink{
+        background-color:rgb(29, 29, 29);
+        height: auto;
+        width: auto;
+        border-radius: 0;
+        cursor: auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .clients-text{
+        width: 100%;
+        padding: 0;
+    }
+    .clients-archievements{
+        gap: 1rem;
+    }
+}
+/* FIN DE EXCLUSIVOS */
+
+@media screen and (max-width:700px) {
+    .contenedor-columnas-aboutUs{
+        flex-direction: column;
+    }
+    .circle-image-aboutUs{
+        position:static;
+        margin: 0.4rem;
+    }
+    .container-values-aboutUs > h2{
+        margin-bottom: 0.2rem;
+        margin-top: 2rem;
+    }
+    .aboutUs-card > p{
+        text-align: center;
+    }
+    .footer-p-credits{
+        width: 100%;
+    }
+    .container-form-contact{
+        flex-direction: column;
+        height: auto;
+        max-height: none;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        gap: 1.5rem;
+    }
+    .form{
+        justify-content: center;
+        align-items: center;
+    }
+    .form > input{
+        width: 100%;
+    }
+    .form > h2{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .form-items-columm{
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 0;
+    }
+    .form > button{
+        width: 100%;
+        text-align: center;
+    }
+    .card-form{
+        width: 70%;
+        height: 60vh;
+    }
+    .form > h2{
+        font-size: 30px;
+    }
+    input::placeholder{
+        font-size: 10px;
+    }
+    textarea::placeholder{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .contenedor-footer-lineUp{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .copyright-text{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .card-form{
+        height: auto;
+    }
+    .form > h2{
+        font-size: 24px;
+    }
+}
