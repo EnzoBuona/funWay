@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunWay Eventos</title>
-    <link rel="stylesheet" href="../assets/styles/register.css">
-    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="../assets/styles/global.css">
+    <link rel="stylesheet" href="../assets/styles/sign.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,7 +14,42 @@
 </head>
 
 <body>
-
+    <nav id="sign-navbar">
+        <picture class="contenedor-logo-nav"">
+            <a style="text-decoration: none;" href="../index.html">
+                <img class="logo-navbar" src="../assets/img/logo.png" alt="Logo de FunWay" />
+            </a>
+        </picture>
+        <div class="contenedor-links-nav">
+            <a class="links-nav" href="../index.html">Inicio</a>
+            <a class="links-nav" href="../index.html#section-about-us">Sobre FunWay</a>
+            <a class="links-nav" href="../index.html#section-contact-us">Contacto</a>
+        </div>
+    </nav>
+    <main class="main-container">
+        <div class="main-column">
+            <div class="column-items">
+                <h2>Registre su cuenta</h2>
+                <hr>
+                <div>
+                    <input placeholder="Ingresa un email valido aquí" type="email">
+                    <input placeholder="Ingresa una contraseña aquí" type="password">
+                    <button>Registrarme</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-column">
+            <div class="right-picture">
+                <div class="black-overlay">
+                    <h2>¿Ya eres miembro?</h2>
+                    <h3>Inicia sesión en tu cuenta.</h3>
+                    <a href="./login.html">
+                        <button>Iniciar Sesión</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
