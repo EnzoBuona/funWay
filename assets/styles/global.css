@@ -201,9 +201,60 @@ color: var(--color-green);
 
 /* FIN DE FOOTER */
 
+/* Responsive menu oculto en escritorio */
 
-/* Responsive Navbar */
+.contenedor-menu-responsive{
+  height: 100%;
+  padding: 15px;
+  display: none;
+}
+.menu-responsive{
+  display: none;
+}
 
-/* @media screen and (max-width:768px) {
-  
-} */
+/* Responsive Menu a partir de Tablet a Movil */
+
+@media screen and (max-width:768px){
+  .contenedor-links-nav{
+    display: none;
+  }
+  .contenenedor-btn-nav{
+    display: none;
+  }
+  .contenedor-menu-responsive{
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .menu-responsive {
+    /* diseño del menu */
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background-color: rgb(0, 0, 0);
+    /* alineamiento de items del contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 2rem;
+    
+    /* animaciones */
+    clip-path: circle(0% at 100% 0%);
+    transition: clip-path 0.4s;
+}
+.close-responsive-menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+}
+/* Agrega comentarios para explicar el propósito del siguiente selector */
+.menu-responsive:target {
+    clip-path: circle(150% at top left);
+}
+}
